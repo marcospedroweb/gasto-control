@@ -1,0 +1,19 @@
+.btnHide {
+  overflow: hidden;
+}
+
+.btnHide span {
+  display: block;
+  overflow: hidden;
+  width: 0;
+  margin-left: 0 !important;
+  text-overflow: clip;
+  transition: all .25s ease-out;
+  font-weight: bold;
+}
+
+.btnHide:hover span {
+  overflow: inherit;
+  width: fit-content;
+  margin-left: 8px !important;
+}
