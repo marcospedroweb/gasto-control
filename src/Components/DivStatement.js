@@ -1,13 +1,13 @@
 import React from 'react';
 import styles from './DivStatement.module.css';
+import MonthTimer from './MonthTimer';
+import MonthlyInvoice from './MonthlyInvoice';
 
 const DivStatement = () => {
   return (
-    <div className={`${styles.divMain}`}>
-      <div>
-        <h2>2023</h2>
-        <h3>Novembro</h3>
-      </div>
+    <div className={`${styles.divMain} bg-secondary rounded p-4`}>
+      <MonthTimer />
+      <MonthlyInvoice />
     </div>
   );
 };

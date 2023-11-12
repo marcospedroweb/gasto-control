@@ -4,7 +4,7 @@ import DivCategories from './DivCategories';
 
 const Main = () => {
   return (
-    <div className="row justify-content-between align-items-center mt-4">
+    <div className="row flex-column flex-lg-row justify-content-between align-items-start mt-4">
       <div className="col-12 col-lg-6">
         <DivStatement />
       </div>
